@@ -12,7 +12,7 @@ Final Project report
     the RISCV CPU core is where the software is running. and the accelerator hardware is where all the computations are executed. 
    
     **Accelerator**
-      In this project. multiple number of PEs were considered. 1 single PE, 2 and 4. the structure of an individual PE can be shown as follow (link) where a and be represent entry of matrix A at (i,j) and matrix B at(j, i) respectively.
+      In this project. multiple number of PEs were considered. 1 single PE, 2 and 4. the structure of an individual PE can be shown as follow https://github.com/freud96/final/blob/main/Structure.JPG where the two data "a" and "b" from memory represent entry of matrix A at (i,j) and matrix B at(j, i) respectively.
       We implemented two types to analyse simulating times elapsed: 1- compute the multiplication of 2 two by vector 1*16 and 16* 1; 2- Compute 2 different multiplication operations of vectors 1*8 and 8*1 to exploit a single core 
       paralellism, and add them together to get the final result. 
       
